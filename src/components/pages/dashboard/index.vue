@@ -14,28 +14,32 @@
                     <!-- Hint -- only edit this file, do not change the TableHeaderSortable,
                          TableCard, or the InfiniteScrollWrapper
                     -->
-                    <p>First - just take a look over the whole project to see what's going on in general.. then:</p>
+                    <p class="text-h5">First - just take a look over the whole project to see what's going on in general.. then:</p>
                     <ul>
                         <li>Try importing the data "statesData.js" and make avail to template for use in this file</li>
-                        <li>Try to place the "TableCard" component in div w/ id "tableCardDiv"</li>
+                        <li class="q-mb-md">Try to place the "TableCard" component in div w/ id "tableCardDiv"</li>
                         <li>add a v-for on the "TableCard" to loop over the array and append a TableCard to the dom for each elem</li>
                         <li>use elem data in the "TableCard"'s v-slot "content" in order to style that data</li>
-                        <li>**hint TableCard has 3 slots that you can pass template to</li>
+                        <li class="q-mb-md">for styling try using Quasar's prebuilt helper classes (in docs under "Style & Indentity") for typography, colors, etc</li>
+                        <li><mark class="q-mr-sm">**hint</mark>TableCard has 3 slots that you can pass template to</li>
                     </ul>
                     <q-separator />
                     <ul>
                         <li>once you figure all that out see if you can hook up the changeSort method to sort your array</li>
-                        <li>hint* change sort is being emitted from the TableHeaderSortable component - no logic needs to be changed
+                        <li><mark class="q-mr-sm">**hint</mark>change sort is being emitted from the TableHeaderSortable component - no logic needs to be changed
                         in that file, what you want to work with is the "changeSort" method in this index file down on line 72</li>
                     </ul>
                     <q-separator />
                     <ul>
                         <li>then even more fun! see if you can add some more data points to each state in the statesData.js file</li>
-                        <li>then try passing those new data points to your TableCard component; add some more flair like enabling
+                        <li class="q-mb-md">then try passing those new data points to your TableCard component; add some more flair like enabling
                             the avatar giving each state a unique avatar, use some other prebuilt quasar components etc.
                         </li>
-                        <li>now see if you can sort by some of these new data points that you've added **hint remember you'll want
-                            to update the "sortableHeaders" array declare in the setup func of this file
+                        <li class="q-mb-md">now see if you can sort by some of these new data points that you've added
+                            <mark class="q-ml-md q-mr-sm">**hint</mark>remember you'll want to update the "sortableHeaders" array declare in the setup func of this file
+                        </li>
+                        <li>don't forget there is an "actions" slot for the TableCard, try adding your own button menu, and some
+                            custom actions, maybe make an alert pop etc -- this will give you even more practice with method handling
                         </li>
                     </ul>
                 </div>
