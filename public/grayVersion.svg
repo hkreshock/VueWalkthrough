@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+    <symbol id="grayVersion" viewBox="0 0 24 24">
+		<path id="outline" style="fill:#c9c9c9" d="M0,3.2L12,24L24,3.2H0z"/>
+		<polygon id="rightV" style="fill:#BDBDBD" points="20.5,7.1 18.6,4.1 22.2,4.1 17.2,12.7 15.4,9.8 16.9,7.1 		"/>
+		<polygon id="bottomV" style="fill:#BDBDBD" points="13.7,18.8 17.2,12.7 10.2,12.7 		"/>
+		<polygon id="leftTopV" style="fill:#BDBDBD" points="7,7.1 8.5,9.7 12,9.8 10.5,7.1 		"/>
+		<polygon id="blackf" style="fill: #4c4c4c" points="17.2,12.7 15.4,9.8 12,9.8 13.7,12.7 		"/>
+		<polygon id="grayf" style="fill:#4c4c4c" points="10.2,12.7 13.7,12.7 12,9.8 8.5,9.7 		"/>
+		<polygon id="f" style="fill: #4c4c4c" points="20.5,7.1 18.6,4.1 1.8,4.1 12,21.8 13.7,18.8 7,7.1 		"/>
+    </symbol>
+</svg>

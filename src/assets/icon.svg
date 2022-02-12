@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495.36 500">
+	<defs>
+		<style>
+			.cls-1{
+			fill:#fff;
+			stroke: #121212;
+			stroke-width: 85;
+			paint-order: stroke fill;
+			}
+			.cls-2{
+			fill:#fac832;
+			}
+			.cls-3{
+			fill:#383838;
+			}
+			.cls-4{
+			fill:#d0a933;
+			}
+		</style>
+	</defs>
+	<g id="Layer_2" data-name="Layer 2">
+		<g id="LIGHT">
+			<g id="White_Outer_and_Inner" data-name="White Outer and Inner">
+				<path class="cls-1" d="M0,0,247.68,429,495.36,0Z" />
+			</g>
+			<g id="V">
+				<polygon class="cls-2" points="423.24 80.3 384.61 19.17 458.61 19.17 355.96 196.61 318.65 134.89 349.4 80.3 423.24 80.3" />
+				<polygon class="cls-2" points="283.43 322.13 355.96 196.61 211 196.61 283.43 322.13" />
+				<polygon class="cls-2" points="144.02 80.3 175.42 134.79 247.68 134.89 215.76 80.3 144.02 80.3" />
+			</g>
+			<g id="F_w_Transparency_" data-name="F w/ &quot;Transparency&quot;">
+				<polygon class="cls-3" points="355.96 196.61 318.65 134.89 247.68 134.89 283.31 196.61 355.96 196.61" />
+				<polygon class="cls-4" points="211 196.61 283.31 196.61 247.68 134.89 175.42 134.79 211 196.61" />
+				<polygon class="cls-3" points="423.24 80.3 384.61 19.17 36.37 19.17 247.61 383.93 283.43 322.13 144.02 80.3 423.24 80.3" />
+			</g>
+		</g>
+	</g>
+</svg>

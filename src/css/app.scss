@@ -1,0 +1,158 @@
+// app global css in SCSS form --- you can add classes here to be used globally
+body {
+    min-width: 100%;
+}
+body, #application {
+	font-family: "Nunito", sans-serif;
+}
+body::-webkit-scrollbar {
+	width: 0px !important;
+}
+body::-webkit-scrollbar-track {
+    width: 0px !important;
+}
+body::-webkit-scrollbar-thumb {
+    width: 0px !important;
+}
+.body--light {
+    /* ... */
+}
+.body--dark {
+    background-color: $dark;
+}
+
+// elevation colors
+.lvl-0 {
+    background-color: $elev-0 !important;
+}
+.lvl-1 {
+    background-color: $elev-1 !important;
+}
+.lvl-2 {
+    background-color: $elev-2 !important;
+}
+.lvl-3 {
+    background-color: $elev-3 !important;
+}
+.lvl-4 {
+    background-color: $elev-4 !important;
+}
+.lvl-5 {
+    background-color: $elev-5 !important;
+}
+.lvl-6 {
+    background-color: $elev-6 !important;
+}
+.lvl-7 {
+    background-color: $elev-7 !important;
+}
+.lvl-8 {
+    background-color: $elev-8 !important;
+}
+.lvl-9 {
+    background-color: $elev-9 !important;
+}
+
+// custom colors
+.text-lvl-0 {
+    color: $elev-0 !important;
+}
+.bg-lvl-0 {
+    background: $elev-0 !important;
+}
+.text-lvl-1 {
+    color: $elev-1 !important;
+}
+.bg-lvl-1 {
+    background: $elev-1 !important;
+}
+.text-lvl-2 {
+    color: $elev-2 !important;
+}
+.bg-lvl-2 {
+    background: $elev-2 !important;
+}
+.text-lvl-3 {
+    color: $elev-3 !important;
+}
+.bg-lvl-3 {
+    background: $elev-3 !important;
+}
+.text-lvl-4 {
+    color: $elev-4 !important;
+}
+.bg-lvl-4 {
+    background: $elev-4 !important;
+}
+.text-lvl-5 {
+    color: $elev-5 !important;
+}
+.bg-lvl-5 {
+    background: $elev-5 !important;
+}
+.text-lvl-6 {
+    color: $elev-6 !important;
+}
+.bg-lvl-6 {
+    background: $elev-6 !important;
+}
+.text-lvl-7 {
+    color: $elev-7 !important;
+}
+.bg-lvl-7 {
+    background: $elev-7 !important;
+}
+.text-lvl-8 {
+    color: $elev-8 !important;
+}
+.bg-lvl-8 {
+    background: $elev-8 !important;
+}
+.text-lvl-9 {
+    color: $elev-9 !important;
+}
+.bg-lvl-9 {
+    background: $elev-9 !important;
+}
+
+
+// font
+.fontLight {
+    color: $white-30;
+}
+.fontLighter {
+    color: $white-60;
+}
+.fontLightest {
+    color: $white-80;
+}
+.fontPrimary {
+    color: $primary;
+}
+.fontSecondary {
+    color: $secondary;
+}
+
+
+// links
+.navItemActive{
+    border-left: 5px solid $primary;
+    color: $primary !important;
+    font-size: 16px;
+}
+a {
+    text-decoration: none;
+}
+
+
+// pages
+
+// hides the little arrows on input type number << super handy
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type="number"] {
+    -moz-appearance: textfield;
+}
