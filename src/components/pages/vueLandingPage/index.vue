@@ -11,8 +11,8 @@
                       <li>This is a Vue walkthrough to get you comfortable messing around in their frontend framework.</li>
                       <li>This walkthough will teach you the basics on setting up routes, building pages, and adding content.</li>
                       <li>Please start by downloading this blank Vue Template from GitHub</li>
-                      <li>Once downloaded, open up the project in VSCode, and then in the terminal, run an <strong style="color: white">npm install</strong></li>
-                      <li>After installing npm, run <strong style="color: white">npm run serve</strong> to spin up the project</li>
+                      <li>Once downloaded, open up the project in VSCode, and then in the terminal, run a <strong style="color: white">yarn</strong></li>
+                      <li>After running yarn, run <strong style="color: white">npm run serve</strong> to spin up the project</li>
                     </ul>
                   </div>
                 </q-card-section>
