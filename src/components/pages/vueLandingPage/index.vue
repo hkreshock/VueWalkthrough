@@ -311,7 +311,7 @@
                         <code style="color: #4090ed; font-weight: bold">{{'<EssentialLink v-for="(link, index) in essentialLinks" :key="`link${index}`" v-bind="link"></EssentialLink>'}}</code>
                       </li>
                       <li>
-                        We are basicall there! The last step we need in order to complete our menu base menu, is to add a Dashboard to our router. I went ahead an created a Dashboard page, so all we need
+                        We are basically there! The last step we need in order to complete our menu base menu, is to add a Dashboard to our router. I went ahead an created a Dashboard page, so all we need
                         to do now is import it.
                       </li>
                     </ul>

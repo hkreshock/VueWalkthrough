@@ -5,27 +5,28 @@
               <q-card-section horizontal>
                 <q-card-section class="q-pt-xs">
                   <div class="text-overline">Intro</div>
-                  <div class="text-h5 q-mt-sm q-mb-xs">Getting started with MongoDB</div>
+                  <div class="text-h5 q-mt-sm q-mb-xs">Getting started with Express</div>
                   <div class="text-subtitle2 text-grey">
                     <ul>
-                      <li>This is a fairly quick MongoDB walkthrough to teach you the basics on creating a DB, collections, and seeding some objects.</li>
-                      <li>Please start by opening MongoDBCompass on your computer.</li>
-                      <li>Once the application is opened, paste this mongo string into the text field</li>
+                      <li>This is a Express walkthrough to get you comfortable messing around in their backend framework.</li>
+                      <li>This walkthough will teach you the basics on setting up a backend, connecting to a DB, and creating routes / services.</li>
+                      <li>Please start by downloading this blank Express Template from GitHub</li>
+                      <li>Once downloaded, open up the project in VSCode, and then create a new branch for yourself.</li>
                     </ul>
                   </div>
                 </q-card-section>
                 <q-card-section class="col-5 flex flex-center" style="height: 250px; width: 250px;">
                   <q-img
                     class="rounded-borders"
-                    src="https://infinapps.com/wp-content/uploads/2018/10/mongodb-logo.png"
+                    src="https://miro.medium.com/max/1400/1*8ETcaw-gA1dYW4EFxqGK3w.png"
                   />
                 </q-card-section>
               </q-card-section>
               <q-separator />
               <q-card-actions>
-                <strong style="color: #4090ed; margin-left: auto; margin-right: auto;">
-                  mongodb://localhost:27017/?readPreference=primary&appname=MongoDB%20Compass&directConnection=true&ssl=false
-                </strong>
+                <q-btn flat color="primary" @click="window.open('https://github.com/hkreshock/ExpressTemplate.git', '_blank');">
+                  GitHub Link
+                </q-btn>
               </q-card-actions>
             </q-card>
             <br />
@@ -35,14 +36,10 @@
             <q-card class="my-card" flat bordered>
               <q-card-section horizontal>
                 <q-card-section class="q-pt-xs full-width">
-                  <div class="text-overline">Making a DB</div>
-                  <div class="text-h5 q-mt-sm q-mb-xs">Let's create our first database</div>
+                  <div class="text-overline">Set up</div>
+                  <div class="text-h5 q-mt-sm q-mb-xs">Getting our backend ready</div>
                   <div class="text-subtitle2 text-grey">
                     <ul>
-                      <li>Now that you have the environment set up, go ahead and click the <strong style="color: white">Create database</strong> button.</li>
-                      <li>Name your database <strong style="color: #4090ed">FreightVanaTest</strong></li>
-                      <li>And name your collection <strong style="color: #4090ed">employees</strong></li>
-                      <li>Once both text fields are filled in, click the <strong style="color: white">Create database</strong> button.</li>
                     </ul>
                   </div>
                 </q-card-section>
