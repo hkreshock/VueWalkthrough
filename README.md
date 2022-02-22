@@ -1,2 +1,1 @@
-# LearningQuasar
-Playground for learning Quasar CLI + Vue 3
+# FreightVana Dev Playground

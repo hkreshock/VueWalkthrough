@@ -1,12 +1,12 @@
 <template>
-    <q-header elevated class="lvl-7">
+    <q-header elevated class='lvl-7'>
         <q-toolbar>
-            <q-toolbar-title class="row">
-                Learning Playground
+            <q-toolbar-title class='row'>
+                FreightVana Dev Playground
                 <q-space />
-                <q-btn-dropdown dense flat no-caps color="primary" label="Documentation and Tutorials">
-                    <q-list v-for="(item, index) in documentation" :key="index">
-                        <q-item clickable v-close-popup @click="onItemClick(item.link)">
+                <q-btn-dropdown dense flat no-caps color='primary' label='Documentation and Tutorials'>
+                    <q-list v-for='(item, index) in documentation' :key='index'>
+                        <q-item clickable v-close-popup @click='onItemClick(item.link)'>
                             <q-item-section>
                                 <q-item-label>{{item.title}}</q-item-label>
                             </q-item-section>
@@ -57,6 +57,14 @@ export default defineComponent({
                 link: 'https://www.youtube.com/watch?v=BGAu__J4xoc&list=PL4cUxeGkcC9i371QO_Rtkl26MwtiJ30P2&index=1',
             },
             {
+                title: 'React Getting Started',
+                link: 'https://reactjs.org/docs/getting-started.html',
+            },
+            {
+                title: 'ReactJS Crash Course',
+                link: 'https://www.youtube.com/watch?v=w7ejDZ8SWv8&ab_channel=TraversyMedia',
+            },
+            {
                 title: 'Node/Express Official Docs',
                 link: 'https://expressjs.com/en/guide/routing.html',
             },
@@ -84,12 +92,20 @@ export default defineComponent({
                 title: '* Mongo Aggregations *',
                 link: 'https://www.youtube.com/watch?v=A3jvoE0jGdE&list=PLWkguCWKqN9OwcbdYm4nUIXnA2IoXX0LI',
             },
+            {
+                title: 'Express Hello World Example',
+                link: 'https://expressjs.com/en/starter/hello-world.html',
+            },
+            {
+                title: 'Express Examples and Links',
+                link: 'https://expressjs.com/en/starter/examples.html',
+            },
         ];
 
         const onItemClick = (link) => {
             window.open(link, '_blank');
         };
-        //
+
         const turnOnSockets = () => {
             socket.on('', (obj) => {
                 //

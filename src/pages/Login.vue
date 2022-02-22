@@ -1,22 +1,22 @@
 <template>
     <!-- we will have you edit this template once we get to setting up an api -->
-    <q-page class="row justify-center items-center">
-        <div class="col-3">
-            <q-card id="loginCard" class="lvl-1 q-pa-md">
-                <q-card-section id="logoWrapper">
-                    <img src="../assets/icon.svg" alt="" />
+    <q-page class='row justify-center items-center'>
+        <div class='col-3'>
+            <q-card id='loginCard' class='lvl-1 q-pa-md'>
+                <q-card-section id='logoWrapper'>
+                    <img src='../assets/icon.svg' alt='' />
                 </q-card-section>
-                <q-card-section class="q-pa-lg">
-                    <div class="row justify-center">
-                        <div class="col-12 text-center q-pt-lg">
-                            <!-- we will add an "@click" function to this button to trigger a method for login -->
+                <q-card-section class='q-pa-lg'>
+                    <div class='row justify-center'>
+                        <div class='col-12 text-center q-pt-lg'>
+                            <!-- we will add an '@click' function to this button to trigger a method for login -->
                             <q-btn
                                 no-caps
-                                color="primary"
-                                style="width: 100%"
+                                color='primary'
+                                style='width: 100%'
                             >
                                 Login
-                                <q-icon name="mdi-key" class="q-ml-lg"></q-icon>
+                                <q-icon name='mdi-key' class='q-ml-lg'></q-icon>
                             </q-btn>
                         </div>
                     </div>

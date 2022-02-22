@@ -1,6 +1,6 @@
 <template>
     <q-page class='flex flex-center'>
-        <StateTable></StateTable>
+        <LandingPage></LandingPage>
     </q-page>
 </template>
 
@@ -11,12 +11,12 @@ import { useStore } from 'vuex';
 // animations
 import 'animate.css';
 
-import StateTable from '../components/pages/dashboard';
+import LandingPage from '../components/pages/vueLandingPage';
 
 export default defineComponent({
-    name: 'Dashboard',
+    name: 'VueLandingPage',
     components: {
-        StateTable,
+        LandingPage,
     },
     setup() {
         const $store = useStore();

@@ -20,25 +20,60 @@ const makeRoutes = (store) => {
             children: [
                 {
                     path: '',
+                    name: 'dashboard',
                     component: () => import('pages/Dashboard.vue'),
                     beforeEnter,
                 },
-                // {
-                //     path: 'fooComponent',
-                //     name: 'fooComponent',
-                //     component: () => import('pages/FooComponent.vue'),
-                //     beforeEnter,
-                // },
             ],
         },
-        // this is an additional page outside of the MainLayout - it is wrapped by the "UnauthenicatedLayout"
-        // {
-        //     path: '/login',
-        //     component: () => import('layouts/UnauthenticatedLayout.vue'),
-        //     children: [
-        //         { path: '', component: () => import('pages/Login.vue') },
-        //     ],
-        // },
+        {
+            path: '/vue',
+            component: () => import('layouts/MainLayout.vue'),
+            children: [
+                {
+                    path: '',
+                    name: 'vueLandingPage',
+                    component: () => import('pages/VueLandingPage.vue'),
+                    beforeEnter,
+                },
+            ],
+        },
+        {
+            path: '/react',
+            component: () => import('layouts/MainLayout.vue'),
+            children: [
+                {
+                    path: '',
+                    name: 'reactLandingPage',
+                    component: () => import('pages/ReactLandingPage.vue'),
+                    beforeEnter,
+                },
+            ],
+        },
+        {
+            path: '/mongo',
+            component: () => import('layouts/MainLayout.vue'),
+            children: [
+                {
+                    path: '',
+                    name: 'mongoLandingPage',
+                    component: () => import('pages/MongoLandingPage.vue'),
+                    beforeEnter,
+                },
+            ],
+        },
+        {
+            path: '/express',
+            component: () => import('layouts/MainLayout.vue'),
+            children: [
+                {
+                    path: '',
+                    name: 'expressLandingPage',
+                    component: () => import('pages/ExpressLandingPage.vue'),
+                    beforeEnter,
+                },
+            ],
+        },
     ];
 
     // Always leave this as last one

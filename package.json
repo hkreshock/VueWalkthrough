@@ -1,9 +1,9 @@
 {
-  "name": "Learning_Playground",
+  "name": "FreightVana Dev Playground",
   "version": "0.0.1",
-  "description": "A Quasar Vue3 Learning Playground",
-  "productName": "Learning_Playground",
-  "author": "Brooke Cobb <brookeecobb@gmail.com>",
+  "description": "A Quasar Vue3 Dev Playground",
+  "productName": "FreightVana Dev Playground",
+  "author": "Hunter Kreshock <hkreshock@gmail.com>",
   "private": true,
   "scripts": {
     "serve": "set QENV=local&& quasar dev",

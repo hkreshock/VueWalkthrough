@@ -21,16 +21,6 @@
                     />
                 </q-list>
             </div>
-            <div class="col-11 self-end q-pb-sm">
-                <q-btn
-                    no-caps
-                    class="full-width"
-                    color="primary"
-                    outline
-                >
-                    Logout
-                </q-btn>
-            </div>
         </div>
     </q-drawer>
 </template>

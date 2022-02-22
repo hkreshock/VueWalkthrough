@@ -1,7 +1,7 @@
 <template>
-  <q-layout view="hHh lpR fFf">
+  <q-layout view='hHh lpR fFf'>
     <Header></Header>
-    <Drawer :essentialLinks="essentialLinks"></Drawer>
+    <Drawer :essentialLinks='essentialLinks'></Drawer>
 
     <q-page-container>
       <router-view />
@@ -26,23 +26,35 @@ export default defineComponent({
     setup() {
         const linkList = [
             {
-                title: 'Dashboard',
+                title: 'Hello',
                 caption: '',
-                icon: 'search',
+                icon: 'mdi-human-greeting',
                 link: '/',
             },
             {
-                title: 'Login',
+                title: 'Vue',
                 caption: '',
-                icon: 'mdi-account-outline',
-                link: '/login',
+                icon: 'mdi-vuejs',
+                link: '/vue',
             },
             // {
-            //     title: 'FooComponent',
+            //     title: 'React',
             //     caption: '',
-            //     icon: 'mdi-finance',
-            //     link: '/fooComponent',
+            //     icon: 'mdi-react',
+            //     link: '/react',
             // },
+            {
+                title: 'MongoDB',
+                caption: '',
+                icon: 'mdi-database',
+                link: '/mongo',
+            },
+            {
+                title: 'Express',
+                caption: '',
+                icon: 'mdi-api',
+                link: '/express',
+            },
         ];
 
         // can rename vars when returning to template
