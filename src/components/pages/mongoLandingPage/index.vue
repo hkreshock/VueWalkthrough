@@ -39,10 +39,10 @@
                   <div class="text-h5 q-mt-sm q-mb-xs">Let's create our first database</div>
                   <div class="text-subtitle2 text-grey">
                     <ul>
-                      <li>Now that you have the environment set up, go ahead and click the <strong style="color: white">Create databse</strong> button.</li>
+                      <li>Now that you have the environment set up, go ahead and click the <strong style="color: white">Create database</strong> button.</li>
                       <li>Name your database <strong style="color: #4090ed">FreightVanaTest</strong></li>
                       <li>And name your collection <strong style="color: #4090ed">employees</strong></li>
-                      <li>Once both text fields are filled in, click the <strong style="color: white">Create databse</strong> button.</li>
+                      <li>Once both text fields are filled in, click the <strong style="color: white">Create database</strong> button.</li>
                     </ul>
                   </div>
                 </q-card-section>
