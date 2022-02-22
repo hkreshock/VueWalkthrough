@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Hunter Kreshock",
+        "role": "developer",
+        "age": 23,
+        "company": "FreightVana"
+    },
+    {
+        "name": "Justin Ceccarelli",
+        "role": "accountant",
+        "age": 32,
+        "company": "freightVana"
+    },
+    {
+        "name": "kyle henderson",
+        "role": "Sandwich Artist",
+        "age": 29,
+        "company": "Subway"
+    },
+    {
+        "name": "Don everhart",
+        "role": "facilities manager",
+        "age": 31,
+        "company": "payless"
+    },
+    {
+        "name": "nelson Mandela",
+        "role": "influencer",
+        "age": 65,
+        "company": "Instagram"
+    },
+    {
+        "name": "Kyler murray",
+        "role": "footballer",
+        "age": 12,
+        "company": "NFL"
+    }
+]
