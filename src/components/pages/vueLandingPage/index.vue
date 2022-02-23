@@ -655,7 +655,7 @@
                       </li>
                       <li>
                         Feel free to go back into the project and mess around with the components you built. Checkout quasars docs on how to
-                        maniulate and style your table even further!
+                        manipulate and style your table even further!
                       </li>
                       <li>
                         Once you're ready for the next walkthrough; go ahead and save your project, then push the changes to your branch in GitHub.
